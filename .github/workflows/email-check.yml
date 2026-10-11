@@ -1,0 +1,17 @@
+name: Email Check Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 24f2008784@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
+
+      - name: Verify workflow
+        run: echo "GitHub Actions workflow completed successfully."
